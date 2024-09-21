@@ -12,7 +12,9 @@ pip install django djangorestframework requests
 ```
 
 3. Run migrations
+```bash
 python translation_tool/manage.py migrate
+```
 
 4. Run the development server on 0.0.0.0:8000
 ```bash
