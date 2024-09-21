@@ -1,5 +1,6 @@
-## Running the application
+# Django web application designed to translate sign language.
 
+## Running the application
 1. clone the repository
 ```bash
 git clone https://github.com/sonnguyenmihn/Koach.git
