@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Translator</title>
+</head>
+<body>
+    <h1>Translate Text</h1>
+    
+    <!-- Form to submit text -->
+    <form method="POST">
+        {% csrf_token %}
+        <textarea name="text" rows="5" cols="50" placeholder="Enter your text here..."></textarea><br>
+        <button type="submit">Submit</button>
+    </form>
+
+    <h2>Translated Text:</h2>
+    <p>{{ translated_text }}</p>
+</body>
+</html>
